@@ -112,7 +112,7 @@ export default function TransactionForm({
         <label className="flex flex-col gap-2 text-sm text-slate-300">
           Type
           <select
-            className="rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-white outline-none transition focus:border-cyan-300"
+            className="select-dark rounded-xl border border-white/10 bg-slate-950/90 px-4 py-2 text-white outline-none transition focus:border-cyan-300"
             value={type}
             onChange={(event) =>
               setType(event.target.value as "income" | "expense")
